@@ -10,5 +10,6 @@ Refer to the [documentation](https://lazyvim.github.io/installation) to get star
 - Vue3
 - Flutter
 - Next.js
+- java/springboot
 - [] Configurar blink.cmp
 - [] Configurar TreeSitter para los lenguahes instalados en LSP Y MASON
