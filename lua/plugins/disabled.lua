@@ -2,8 +2,7 @@
 return {
   { "akinsho/bufferline.nvim", enabled = false },
   { "folke/tokyonight.nvim", enabled = true },
-  { "catpuccin/nvim", enabled = false },
-  -- Blink plugin configuratio
+  -- Blink plugin configuration
   {
     "saghen/blink.cmp",
     dependencies = { "rafamadriz/friendly-snippets" },
@@ -12,7 +11,6 @@ return {
     ---@type blink.cmp.Config
     opts = {
       appearance = {
-        use_nvim_cmp_as_default = true,
         nerd_font_variant = "mono",
       },
       completion = {

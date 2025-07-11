@@ -39,6 +39,12 @@ vim.opt.hlsearch = true
 vim.opt.formatoptions:append({ "r" })
 vim.opt.laststatus = 3
 
+-- Lsp Diagnostics
+vim.diagnostic.config({
+  virtual_text = true,
+  underline = true,
+})
+
 -- Array of file names indicating root directory. Modify to your liking.
 local root_names = { ".git", "Makefile" }
 
