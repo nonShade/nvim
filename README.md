@@ -11,8 +11,8 @@ Refer to the [documentation](https://lazyvim.github.io/installation) to get star
 ### Configurar LSP y MASON para los siguientes lenguajes:
 - [x] React/React-Native
 - [x] Vue3
-- [] Flutter
-- [] Next.js
+<!-- - [] Flutter -->
+<!-- - [] Next.js -->
 
 ### Instalar plugins para usar java
-- [] java/springboot
+- [x] java/springboot

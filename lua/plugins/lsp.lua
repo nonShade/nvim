@@ -44,5 +44,9 @@ return {
         lspconfig[server_name].setup(server_opts)
       end,
     })
+
+    -- Configuración adicional para los servidores LSP
+    -- Java server configuration
+    require("lspconfig").jdtls.setup({})
   end,
 }
