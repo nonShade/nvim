@@ -20,7 +20,7 @@ return {
 
     -- keymaps for oil
     vim.keymap.set("n", "<leader>e", require("oil").toggle_float, { desc = "Open parent directory" }) -- opens parent dir over current active window
-    vim.keymap.set("n", "<leader>E", "<CMD>Oil<CR>", { desc = "Open parent directory" }) -- opens parent dir over current active window
+    -- vim.keymap.set("n", "<leader>E", "<CMD>Oil<CR>", { desc = "Open parent directory" }) -- opens parent dir over current active window
 
     vim.api.nvim_create_autocmd("FileType", {
       pattern = "oil",
