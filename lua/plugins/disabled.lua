@@ -1,6 +1,5 @@
 -- Disable plugins from lazyvim
 return {
-  { "akinsho/bufferline.nvim", enabled = false },
   { "folke/tokyonight.nvim", enabled = true },
   -- Blink plugin configuration
   {
@@ -65,4 +64,8 @@ return {
       },
     },
   },
+  { "MagicDuck/grug-far.nvim", enabled = false },
+  { "folke/todo-comments.nvim", enabled = false },
+  { "akinsho/bufferline.nvim", enabled = false },
+  { "folke/persistence.nvim", enabled = false },
 }
